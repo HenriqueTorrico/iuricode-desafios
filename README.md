@@ -16,7 +16,7 @@
 
 <br>
 
-## ✨ Desafio 1 - IuriCode (Blog de Notícias) 💻
+### ✨ Desafio 1 - IuriCode (Blog de Notícias) 💻
 <br>
 <img src="./desafio-01/assets/design/codelandia.jpg">
 <br>
@@ -26,10 +26,9 @@
 
 <br>
 
-## ✨ Desafio 2 - IuriCode (JordanShoes) 💻
+### ✨ Desafio 2 - IuriCode (JordanShoes) 💻
 <br>
 <img src="./desafio-02/assets/design/jordanshoes.jpg">
-<br>
 <br>
 
 ### Status: Concluído ✅
@@ -37,10 +36,9 @@
 
 <br>
 
-## ✨ Desafio 3 - IuriCode (OnePage) 💻
+### ✨ Desafio 3 - IuriCode (OnePage) 💻
 <br>
 <img src="./desafio-03/assets/design/onepage.jpg">
-<br>
 <br>
 
 ### Status: Concluído ✅
@@ -48,10 +46,9 @@
 
 <br>
 
-## ✨ Desafio 4 - IuriCode (Login) 💻
+### ✨ Desafio 4 - IuriCode (Login) 💻
 <br>
 <img src="./desafio-04/assets/design/login.jpg">
-<br>
 <br>
 
 ### Status: Concluído ✅
@@ -59,10 +56,9 @@
 
 <br>
 
-## ✨ Desafio 5 - IuriCode (A Viagem de Chihiro) 💻
+### ✨ Desafio 5 - IuriCode (A Viagem de Chihiro) 💻
 <br>
 <img src="./desafio-05/assets/design/viagemdechihiro.png">
-<br>
 <br>
 
 ### Status: Concluído ✅
@@ -70,10 +66,9 @@
 
 <br>
 
-## ✨ Desafio 6 - IuriCode (Loki) 💻
+### ✨ Desafio 6 - IuriCode (Loki) 💻
 <br>
 <img src="./desafio-06/assets/design/loki.jpg">
-<br>
 <br>
 
 ### Status: Concluído ✅
@@ -81,10 +76,9 @@
 
 <br>
 
-## ✨ Desafio 7 - IuriCode (Valorant) 💻
+### ✨ Desafio 7 - IuriCode (Valorant) 💻
 <br>
 <img src="./desafio-07/assets/design/valorant.jpg">
-<br>
 <br>
 
 ### Status: Concluído ✅
@@ -92,10 +86,9 @@
 
 <br>
 
-## ✨ Desafio 8 - IuriCode (CodeMoji) 💻
+### ✨ Desafio 8 - IuriCode (CodeMoji) 💻
 <br>
 <img src="./desafio-08/assets/design/codemoji.jpg">
-<br>
 <br>
 
 ### Status: Concluído ✅
