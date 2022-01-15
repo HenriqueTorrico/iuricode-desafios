@@ -98,6 +98,6 @@
 
 ## 💻 Tecnologias utilizadas nos desafios
 
-#### ✅ HTML 
-#### ✅ CSS
-#### ✅ JavaScript
+### ✅ HTML 
+### ✅ CSS
+### ✅ JavaScript
