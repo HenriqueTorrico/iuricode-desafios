@@ -1,559 +1,163 @@
-.msg-entrada {
-  margin: 25px 0 0 0;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.intro {
+  margin-top: 114px;
 }
 
-.container-entrada {
-  max-width: 1300px;
-  width: 100%;
-  padding: 20px 30px;
-}
-
-.container-entrada h1 {
-  font-family: 'Lexend Deca', sans-serif;
-  color: #fefbfb;
-  font-weight: 400;
-  font-size: 47px;
+.intro .container h2 {
+  font: 400 3rem "Lexend Deca", sans-serif;
   line-height: 60px;
+  color: var(--white);
+  margin-bottom: 11px;
 }
 
-.container-entrada h1 span {
-  display: block;
-}
+.intro .container h2 span { display: block; }
 
-.container-entrada p {
-  font-family: 'Inter', sans-serif;
-  color: #c4c4c4;
-  margin: 15px 0 0 0;
+.intro .container p {
+  max-width: 492px;
+  font: 500 1.25rem "Inter", sans-serif;
   line-height: 32px;
-  font-size: 20px;
-  font-weight: 500;
+  color: var(--white-200);
 }
 
-.container-entrada p span {
-  display: block;
-}
+.tops-do-dia { margin-top: 40px; }
 
-/* populares */
-
-.populares {
+.tops-do-dia .container { 
   display: flex;
-  justify-content: center;
+  /* flex-wrap: wrap; */
 }
 
-.container-populares {
-  max-width: 1300px;
-  width: 100%;
-  padding: 20px 30px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.container-outros {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.container-outros > div {
-  height: 47%;
-}
-
-.top1 {
-  width: 930px;
-  height: 390px;
-  margin: 0 24px 0 0;
-}
-
-div.top1 div.ds-top {
-  padding: 30px;
-}
-
-.top-single {
-  position: relative;
-}
-
-.top1 img,
-.top-single img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.top1 img {
-  opacity: .6;
-}
-
-.top-single img {
-  opacity: .8;
-}
-
-.top-single .conteudo-top {
-  padding: 12px 20px 0;
-  position: absolute;
-  top: 0;
-}
-
-.top-single .conteudo-top p {
-  font-family: 'Lexend Deca', sans-serif;
-  color: #fefbfb;
-  font-size: 13px;
-  padding: 4px 20px;
-  background-color: #8257E6;
-  border-radius: 3px;
-  font-weight: 300;
-}
-
-.top-single .ds-top {
-  position: absolute;
-  bottom: 0;
-  padding: 20px 25px 15px 15px;
-  background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%);
-  width: 100%;
-}
-
-.top-single .ds-top h3,
-.top-single .container-outros .ds-top h3 {
-  font-family: 'Lexend Deca', sans-serif;
-  color: #fefbfb;
-  font-weight: 300;
-}
-
-.top-single .ds-top h3 {
-  font-size: 25px;
+figure.top1 figcaption {
+  font: 400 1.5rem "Lexend Deca", sans-serif;
   line-height: 34px;
+  padding: 0 30px 20px 30px;
 }
 
-.container-outros .top-single .ds-top h3 {
-  font-size: 13px;
+.tops {
+  position: relative;
+  margin: 0 20px 20px 0;
+}
+
+.tops span,
+.single-filme span {
+  font: 400 .85rem "Lexend Deca", sans-serif;
+  line-height: 17px;
+  color: var(--white);
+  padding: 3px 16px 4px;
+  border-radius: 3px;
+  background: var(--purple-light);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.tops figcaption,
+.single-filme figcaption {
+  width: 100%;
+  height: 100%;
+  font: 400 .8rem "Lexend Deca", sans-serif;
   line-height: 20px;
+  color: var(--white);
+  background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%);
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 20px 15px 10px;
 }
 
-.top-single .ds-top h3 span {
+.container-tops .tops { margin: 0 0 20px 0; }
+
+.container .tops:last-child { margin: 0; }
+
+.geral .container { display: flex; }
+
+.container-scroll { 
+  width: 67%; 
+  margin-right: 20px;
+  height: 895px;
+  overflow-y: scroll;
+}
+
+.single-scroll { 
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.img-scroll { 
+  width: 200px;
+  height: 151px;
+  position: relative; 
+  margin-right: 16px;
+}
+
+.img-scroll .leg-scroll {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%);
+}
+
+.img-scroll .leg-scroll span {
+  font: 400 .75rem "Lexend Deca", sans-serif;
+  line-height: 12px;
+  color: var(--white);
+  padding: 5px 16px;
+  border-radius: 3px;
+  background: var(--purple-light);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.ds-scroll h4 {
+  max-width: 500px;
+  font: 400 .9rem "Lexend Deca", sans-serif;
+  line-height: 20px;
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.ds-scroll p {
+  max-width: 400px;
+  font: 400 .8rem "Inter", sans-serif;
+  line-height: 16px;
+  color: var(--white-200);
+  margin-bottom: 6px;
+}
+
+.ds-scroll span {
+  font: 600 .61rem "Inter", sans-serif;
+  line-height: 20px;
+  color: var(--white);
+  margin-bottom: 12px;
   display: block;
 }
 
-/* todos os animes */
-
-.todos-animes {
-  display: flex;
-  justify-content: center;
-  margin: 25px 0 0 0;
-}
-
-.container-animes {
-  max-width: 1300px;
-  width: 100%;
-  display: flex;
-}
-
-.container-lista-esquerda {
-  height: 960px;
-  overflow-y: scroll;
-  margin: 0 30px 0 0;
-  scrollbar-color: #8257E6;
-  padding: 20px 10px;
-}
-
-  .container-lista-esquerda::-webkit-scrollbar { 
-    width: 14px; 
-  }
-
-  .container-lista-esquerda::-webkit-scrollbar-thumb {
-    background-color: #8257E6;
-    border: 3px solid #282830;
-  }
-
-  .container-lista-esquerda::-webkit-scrollbar-track { 
-    background-color: #282830; 
-  }
-
-.cards-animes {
-  display: flex;
-  margin: 0 0 40px;
-  padding: 2px 100px 0 20px;
-}
-
-.img-anime {
-  margin: 0 15px 0 0;
-  width: 387px;
-  position: relative;
-}
-
-.img-anime img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.ds-img {
-  position: absolute;
-  top: 9px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%);
-}
-
-.img-anime p {
-  font-family: 'Lexend Deca', sans-serif;
-  color: #fefbfb;
-  font-size: 11px;
-  padding: 4px 15px;
-  background-color: #8257E6;
+.ds-scroll a {
+  font: 600 .68rem "Inter", sans-serif;
+  line-height: 20px;
+  color: var(--white);
+  background: var(--purple-light);
   border-radius: 3px;
-  font-weight: 400;
-  margin: 0 0 0 10px;
+  padding: 6px 22px;
+}
+
+.container-restante .title { margin-bottom: 40px; }
+
+.container-restante .title h3 {
+  font: 400 1.5rem "Lexend Deca", sans-serif;
+  line-height: 20px;
+  color: var(--white);
+  border-bottom: 3px solid var(--purple-light);
+  padding: 0 40px 10px 0;
   display: inline;
 }
 
-.ds-anime h3 {
-  font-family: 'Lexend Deca', sans-serif;
-  color: #fefbfb;
-  font-size: 13px;
-  line-height: 20px;
-  font-weight: 400;
-}
-
-.ds-anime p {
-  font-family: 'Inter', sans-serif;
-  color: #c4c4c4;
-  font-size: 11px;
-  line-height: 16px;
-  margin: 10px 0 10px 0;
-}
-
-  .ds-anime p:nth-of-type(2) {
-    margin: 0 0 20px;
-  }
-
-.ds-anime a {
-  font-family: 'Lexend Deca', sans-serif;
-  color: #fefbfb;
-  font-size: 12px;
-  padding: 6px 20px;
-  background-color: #8257E6;
-  border-radius: 3px;
-  font-weight: 400;
-}
-
-.container-lista-direita {
-  padding: 0 30px;
-}
-
-.container-lista-direita h2 {
-  font-family: 'Lexend Deca', sans-serif;
-  color: #fefbfb;
-  font-size: 24px;
-  line-height: 20px;
-  font-weight: normal;
-  border-bottom: 3px solid #8257E6;
-  padding: 0 0 10px 0;
-  margin: 0 0 30px 0;
-  display: inline-block;
-}
-
-.cards-animes-direita {
-  margin: 0 0 35px;
-  position: relative;
-}
-
-  .cards-animes-direita:nth-child(4) {
-    margin: 0;
-  }
-
-.ds-anime-direita {
-  padding: 15px 15px 20px;
-  position: absolute;
-  top: 0;
-  background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%);  
-  height: 100%;
-  display: 	flex;
-  align-items: flex-end;
-}
-
-.ds-anime-direita h3 {
-  font-family: 'Lexend Deca', sans-serif;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 20px;
-  color: #fefbfb;
-}
-
-.cards-animes-direita .top-single {
-  position: absolute;
-  top: 10px;
-  left: 12px;
-}
-
-.cards-animes-direita .top-single p {
-  font-family: 'Lexend Deca', sans-serif;
-  color: #fefbfb;
-  font-size: 13px;
-  padding: 4px 20px;
-  background-color: #8257E6;
-  border-radius: 3px;
-  font-weight: 300;
-}
-
-/* noticias mais recentes */
-
-.noticias-recentes {
-  display: flex;
-  justify-content: center;
-  margin: 60px 0 0 0;
-}
-
-.container-recentes {
-  max-width: 1300px;
-  width: 100%;
-}
-
-.titulo-recentes {
-  padding: 20px 30px;
-}
-
-.titulo-recentes h2 {
-  font-family: 'Lexend Deca', sans-serif;
-  display: inline;
-  border-bottom: 3px solid #8257E6;
-  padding: 0 0 8px 0;
-  font-weight: normal;
-  font-size: 26px;
-  line-height: 20px;
-  color: #fefbfb;
-}
-
-.container-noticias {
-  padding: 20px 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.cards-recentes {
-  width: calc(100% / 3 - 30px);
-  position: relative;
-  margin: 20px 0 25px;
-}
-
-.cards-recentes img {
-  object-fit: cover;
-  width: 100%;
+.single-filme {
+  max-width: 338px;
   height: 250px;
+  position: relative;
 }
 
-.cards-recentes .ds-recentes {
-  position: absolute;
-  bottom: 0;
-  background: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%);
-  height: 100%;
-  padding: 0 20px 22px;
-  display: flex;
-  align-items: flex-end;
-}
+.single-filme { margin-bottom: 40px; }
 
-.cards-recentes .ds-recentes p {
-  font-family: 'Lexend Deca', sans-serif;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 20px;
-  color: #fefbfb;
-}
-
-.cards-recentes .top-single {
-  position: absolute;
-  top: 10px;
-  left: 12px;
-}
-
-.cards-recentes .top-single p {
-  font-family: 'Lexend Deca', sans-serif;
-  color: #fefbfb;
-  font-size: 13px;
-  padding: 4px 20px;
-  background-color: #8257E6;
-  border-radius: 3px;
-  font-weight: 300;
-}
-
-/* responsivo */
-
-@media screen and (max-width: 1024px) {
-  .container-lista-direita {
-    padding: 0 30px 0 10px;
-  }
-}
-
-@media screen and (max-width: 922px) {
-  .container-lista-esquerda {
-    margin: 0 20px 50px 0;
-  }
-
-  .container-animes {
-    flex-direction: column;
-  }
-
-  .container-lista-direita {
-    max-width: 1300px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .container-lista-direita .titulo {
-    width: 100%;
-    padding: 0 0 20px 20px;
-  }
-
-  .cards-animes-direita {
-    width: calc(100% / 2 - 40px);
-    margin: 0 20px;
-  }
-
-  .cards-animes-direita:nth-child(4) {
-    margin: 40px 0 0 20px;
-  }
-
-  .cards-animes-direita img {
-    width: 100%;
-  }
-
-  .container-noticias {
-    justify-content: center;
-  }
-
-  .cards-recentes {
-    width: calc(100% / 2 - 40px);
-    margin: 20px;
-  }
-}
-
-@media screen and (max-width: 824px) {
-  .container-populares {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .container-populares .top1 {
-    width: 100%;
-  }
-
-  .container-outros {
-    margin: 20px 0 0 0;
-    flex-direction: row;
-  }
-
-  .container-outros > div {
-    height: 190px;
-  }
-
-    .container-outros > div:nth-of-type(1) {
-      margin: 0 20px 0 0;
-    }
-
-    .container-outros > div:nth-of-type(2) {
-      margin: 0 0 0 20px;
-    }
-
-  .cards-animes {
-    padding: 2px 10px 0 20px;
-  }
-}
-
-@media screen and (max-width: 637px) {
-  .container-lista-direita {
-    padding: 20px 30px;
-    justify-content: center;
-  }
-
-  .cards-animes-direita {
-    width: 100%;
-    margin: 0 0 20px;
-  }
-
-  .cards-animes-direita:nth-child(4) {
-    margin: 0;
-  }
-
-  .ds-anime-direita {
-    padding: 20px 20px 35px;
-  }
-
-  .cards-animes-direita img {
-    height: 290px;
-    object-fit: cover;
-    width: 100%;
-  }
-
-  .container-lista-direita .titulo {
-    padding: 0;
-  }
-}
-
-@media screen and (max-width: 579px) {
-  .container-outros {
-    flex-direction: column;
-  }
-
-  .container-outros > div {
-    height: 210px;
-  }
-
-  .container-outros > div:nth-of-type(1) {
-    margin: 0 0 20px;
-  }
-
-  .container-outros > div:nth-of-type(2) {
-    margin: 0;
-  }
-
-  .todos-animes {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0 0 0;
-  }
-
-  .container-lista-direita {
-    margin: 50px 0 0 0;
-  }
-
-  .container-lista-esquerda {
-    overflow-x: scroll;
-    overflow-y: hidden;
-    display: flex;
-    align-items: center;
-    height: 300px;
-    margin: 0 30px;
-    padding: 0;
-  }
-
-  .cards-animes {
-    margin: 0 20px 40px 0;
-    padding: 20px 20px 25px;
-    background-color: #282830;
-    border-radius: 10px;
-  }
-
-  .cards-recentes {
-    width: 100%;
-  }
-}
-
-
-@media screen and (max-width: 425px) {
-  .msg-entrada {
-    margin: 45px 0 55px 0;
-  }
-
-  .container-entrada h1 span {
-    display: inline;
-  }
-  
-  .container-entrada p span {
-    display: inline;
-  }
-}
+.single-filme:last-child { margin-bottom: 0; }
