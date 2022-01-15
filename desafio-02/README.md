@@ -1,4 +1,4 @@
-# Desafio 2 - IuriCode (Jordan Shoes) 💻
+# Desafio 2 - IuriCode (JordanShoes) 💻
 
 <br>
 
@@ -8,14 +8,22 @@
 
 <br>
 
-## Links uteis
+## 🎯 Projeto
+
+<br>
+
+<img src="./assets/design/jordanshoes.jpg">
+
+<br>
+
+## ✨ Links uteis
 
 #### ⚫ Design do projeto: <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codelândia?node-id=1883%3A2" target="_blank">Clique aqui</a>
 #### ⚫ Criador do desafio <a href="https://www.linkedin.com/in/iuricode/" target="_blank">Clique aqui</a>
   
 <br>
 
-## Tecnologias utilizadas
+## 💻 Tecnologias utilizadas
 
 #### ✅ HTML 
 #### ✅ CSS
@@ -23,6 +31,6 @@
 
 <br>
 
-## Resultado
+## 🎉 Resultado
 
-#### 🧐 Confira o resultado clicando <a href="https://jordanshoes-torrico.netlify.app" target="_blank">aqui</a>
+### 🧐 Confira o resultado clicando <a href="https://jordanshoes-torrico.netlify.app" target="_blank">aqui</a>
