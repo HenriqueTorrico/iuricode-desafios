@@ -107,6 +107,16 @@
 ### 🧐 Confira o resultado <a href="https://portfoliodesafio-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
+<br>
+
+## ✨ Desafio 10 - IuriCode (Naped) 💻
+<br>
+<img src="./desafio-10/assets/design/naped.jpg">
+
+### Status: Em andamento 🚨
+<!-- ### 🧐 Confira o resultado <a href="https://portfoliodesafio-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+
+<br>
 
 ## ✨ Links uteis
 
