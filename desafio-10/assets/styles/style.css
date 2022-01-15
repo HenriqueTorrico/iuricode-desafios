@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* estilos gerais */
+
+body {
+  background: #13131F;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* scroll */
+
+html::-webkit-scrollbar { 
+  width: 14px; 
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #8257E6;
+  border: 3px solid #13131F;
+}
+
+html::-webkit-scrollbar-track { 
+  background-color: #13131F; 
+}
+
+/* menus */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.menus {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.logo h2 {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #8257E6;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.menu-desktop ul {
+  display: flex;
+}
+
+.menu-desktop li {
+  margin: 0 30px 0 0;
+}
+
+  .menu-desktop li:nth-of-type(5) {
+    margin: 0 90px 0 0;
+  }
+
+  .menu-desktop li:nth-of-type(6) {
+    margin: 0;
+  }
+
+.menu-desktop li a {
+  font-family: 'Inter', sans-serif;
+  color: #c4c4c4;
+  padding: 10px 10px;
+  transition: .3s ease-in-out;
+}
+
+  .menu-desktop li a:hover {
+    color: #8257E6;
+  }
+
+.menu-desktop li .minha-conta {
+  border: 2px solid #8257E6;
+  border-radius: 40px;
+  padding: 10px 20px;
+}
+
+/* rodapé */
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.container-rodape {
+  max-width: 1300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.container-rodape h2 {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #8257E6;
+  font-weight: 400;
+  font-size: 28px;
+  margin: 0 0 20px;
+}
+
+.container-rodape p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #c4c4c4;
+}
+
+.container-rodape p span {
+  display: block;
+}
+
+/* responsivo */
+
+@media screen and (max-width: 924px) {
+  .menu-desktop {
+    display: none;
+  }
+}
