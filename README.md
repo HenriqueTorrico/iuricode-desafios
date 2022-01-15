@@ -19,7 +19,6 @@
 ## ✨ Desafio 1 - IuriCode (Blog de Notícias) 💻
 <br>
 <img src="./desafio-01/assets/design/codelandia.jpg">
-<br>
 
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://codelandia-blog-torrico.netlify.app" target="_blank">aqui</a> 🧐
@@ -29,7 +28,6 @@
 ## ✨ Desafio 2 - IuriCode (JordanShoes) 💻
 <br>
 <img src="./desafio-02/assets/design/jordanshoes.jpg">
-<br>
 
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://jordanshoes-torrico.netlify.app" target="_blank">aqui</a> 🧐
@@ -39,7 +37,6 @@
 ## ✨ Desafio 3 - IuriCode (OnePage) 💻
 <br>
 <img src="./desafio-03/assets/design/onepage.jpg">
-<br>
 
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://one-page-torrico.netlify.app" target="_blank">aqui</a> 🧐
@@ -49,7 +46,6 @@
 ## ✨ Desafio 4 - IuriCode (Login) 💻
 <br>
 <img src="./desafio-04/assets/design/login.jpg">
-<br>
 
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://login-torrico.netlify.app" target="_blank">aqui</a> 🧐
@@ -59,7 +55,6 @@
 ## ✨ Desafio 5 - IuriCode (A Viagem de Chihiro) 💻
 <br>
 <img src="./desafio-05/assets/design/viagemdechihiro.png">
-<br>
 
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://codelandia-blog-torrico.netlify.app" target="_blank">aqui</a> 🧐
@@ -69,7 +64,6 @@
 ## ✨ Desafio 6 - IuriCode (Loki) 💻
 <br>
 <img src="./desafio-06/assets/design/loki.jpg">
-<br>
 
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://loki-torrico.netlify.app" target="_blank">aqui</a> 🧐
@@ -79,7 +73,6 @@
 ## ✨ Desafio 7 - IuriCode (Valorant) 💻
 <br>
 <img src="./desafio-07/assets/design/valorant.jpg">
-<br>
 
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://valorant-torrico.netlify.app" target="_blank">aqui</a> 🧐
