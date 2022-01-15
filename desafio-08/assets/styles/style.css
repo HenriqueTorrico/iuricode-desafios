@@ -67,6 +67,10 @@ nav.container {
   text-transform: uppercase;
 }
 
+.menu {
+  display: none;
+}
+
 .emojis { margin-top: 9.6rem; }
 
 .emojis .top { position: relative; }
@@ -215,6 +219,10 @@ nav.container {
   .emoji03 { bottom: -180px; left: 40px; }
   .emoji04 { bottom: -180px; left: auto; right: 30px; }
   .emoji05 { display: none; }
+
+  .comments .container {
+    bottom: -250px;
+  }
 }
 
 @media screen and (max-width: 706px){
@@ -238,6 +246,8 @@ nav.container {
 
 @media screen and (max-width: 518px){  
   .container-login { display: none; }
+  .menu { display: block; }
+  .menu img { width: 35px; }
   .ds h1 { font: 700 3.5rem "Inter", sans-serif; }
 }
 
