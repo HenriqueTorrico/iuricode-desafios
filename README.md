@@ -92,7 +92,6 @@
 ## ✨ Desafio 8 - IuriCode (CodeMoji) 💻
 <br>
 <img src="./desafio-08/assets/design/codemoji.jpg">
-<br>
 
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://valorant-torrico.netlify.app" target="_blank">aqui</a> 🧐
