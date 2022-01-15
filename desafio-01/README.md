@@ -4,7 +4,15 @@
 
 ## 📌 Sobre
 
-#### 🥇 Esse é o primeiro projeto dos desafios propostos por  <a href="https://www.linkedin.com/in/iuricode/" target="_blank">IuriCode</a> no qual ele fornece o layout projetado no Figma.
+#### 🥇 Primeiro projeto dos desafios propostos por  <a href="https://www.linkedin.com/in/iuricode/" target="_blank">IuriCode</a> no qual ele fornece o layout projetado no Figma.
+
+<br>
+
+## 🎯 Projeto
+
+<br>
+
+<img src="./assets/design/codelandia.jpg">
 
 <br>
 
