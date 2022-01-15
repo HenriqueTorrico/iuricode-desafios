@@ -94,7 +94,7 @@
 <img src="./desafio-08/assets/design/codemoji.jpg">
 
 ### Status: Concluído ✅
-### 🧐 Confira o resultado <a href="https://valorant-torrico.netlify.app" target="_blank">aqui</a> 🧐
+### 🧐 Confira o resultado <a href="https://codemoji-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
 
