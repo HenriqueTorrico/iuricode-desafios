@@ -97,6 +97,16 @@
 ### 🧐 Confira o resultado <a href="https://codemoji-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
+<br>
+
+## ✨ Desafio 9 - IuriCode (Portfólio) 💻
+<br>
+<img src="./desafio-09/assets/design/portfolio.jpg">
+
+### Status: Concluído ✅
+### 🧐 Confira o resultado <a href="https://portfoliodesafio-torrico.netlify.app" target="_blank">aqui</a> 🧐
+
+<br>
 
 ## ✨ Links uteis
 
