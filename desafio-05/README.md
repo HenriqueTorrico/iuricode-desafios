@@ -12,7 +12,7 @@
 
 <br>
 
-<img src="./assets/design/login.jpg">
+<img src="./assets/design/viagemdechihiro.png">
 
 <br>
 
