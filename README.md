@@ -4,7 +4,7 @@
 
 ## 📌 Sobre
 
-#### 🥇 Bem vindo Dev, aqui estarei colocando o resultado de todos os desafios propostos por <a href="https://www.linkedin.com/in/iuricode/" target="_blank">IuriCode</a>. No qual ele fornece o layout projetado no Figma e permite a divulgação do resultado.
+### 🥇 Bem vindo Dev, aqui estarei colocando o resultado de todos os desafios propostos por <a href="https://www.linkedin.com/in/iuricode/" target="_blank">IuriCode</a>. No qual ele fornece o layout projetado no Figma e permite a divulgação do resultado.
 
 <br>
 
@@ -15,6 +15,7 @@
 # 🎯 Projetos que foram e serão realizados. 
 
 <br>
+<br>
 
 ## ✨ Desafio 1 - IuriCode (Blog de Notícias) 💻
 <br>
@@ -23,6 +24,7 @@
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://codelandia-blog-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
+<br>
 <br>
 
 ## ✨ Desafio 2 - IuriCode (JordanShoes) 💻
@@ -33,6 +35,7 @@
 ### 🧐 Confira o resultado <a href="https://jordanshoes-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
+<br>
 
 ## ✨ Desafio 3 - IuriCode (OnePage) 💻
 <br>
@@ -41,6 +44,7 @@
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://one-page-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
+<br>
 <br>
 
 ## ✨ Desafio 4 - IuriCode (Login) 💻
@@ -51,6 +55,7 @@
 ### 🧐 Confira o resultado <a href="https://login-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
+<br>
 
 ## ✨ Desafio 5 - IuriCode (A Viagem de Chihiro) 💻
 <br>
@@ -59,6 +64,7 @@
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://codelandia-blog-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
+<br>
 <br>
 
 ## ✨ Desafio 6 - IuriCode (Loki) 💻
@@ -69,6 +75,7 @@
 ### 🧐 Confira o resultado <a href="https://loki-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
+<br>
 
 ## ✨ Desafio 7 - IuriCode (Valorant) 💻
 <br>
@@ -77,6 +84,7 @@
 ### Status: Concluído ✅
 ### 🧐 Confira o resultado <a href="https://valorant-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
+<br>
 <br>
 
 ## ✨ Desafio 8 - IuriCode (CodeMoji) 💻
