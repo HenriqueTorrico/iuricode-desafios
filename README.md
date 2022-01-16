@@ -113,8 +113,8 @@
 <br>
 <img src="./desafio-10/assets/design/naped.jpg">
 
-### Status: Em andamento 🚨
-<!-- ### 🧐 Confira o resultado <a href="https://portfoliodesafio-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+### Status: Concluído ✅
+### 🧐 Confira o resultado <a href="https://naped-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
 

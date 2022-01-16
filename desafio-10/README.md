@@ -39,4 +39,4 @@
 
 ## 🎉 Resultado
 
-### 🧐 Confira o resultado clicando <a href="https://portfoliodesafio-torrico.netlify.app" target="_blank">aqui</a>
+### 🧐 Confira o resultado clicando <a href="https://naped-torrico.netlify.app" target="_blank">aqui</a>

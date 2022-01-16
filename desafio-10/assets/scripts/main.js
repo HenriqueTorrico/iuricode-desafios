@@ -1,3 +1,10 @@
+$(document).ready(function () {
+  $(".span-btn-mobile").click(function (){
+    $(this).toggleClass('active');
+    $(".links-menu").toggleClass('active');
+  });
+});
+
 const scroll = [
   {
     imagem: "./assets/img/img-anime01.jpg",

@@ -13,6 +13,7 @@
   justify-content: center;
   position: absolute;
   padding-left: 40px;
+  padding-right: 10px;
   background: linear-gradient(0.01deg, #13131F 0.01%, rgba(19, 19, 31, 0) 99.99%);
 }
 
@@ -35,7 +36,7 @@
   position: relative;
 }
 
-input[type="search"] {
+input[type="text"] {
   font: 400 1.25rem "Lexend Deca", sans-serif;
   line-height: 25px;
   color: var(--white);
@@ -108,4 +109,9 @@ figure.single-btn { padding: 6px; }
 
 @media screen and (max-width: 692px) {
   .single-secao-animes { width: 100%; margin: 0 0 40px 0; }
+}
+
+@media screen and (max-width: 541px) {
+  .img-intro-animes .ds-img { padding-left: 20px; }
+  input[type="text"] { font: 400 1rem "Lexend Deca", sans-serif; }
 }
