@@ -23,3 +23,5 @@
 .intro-noticia .container p:nth-of-type(2),
 .intro-noticia .container p:nth-of-type(3),
 .img-noticia { margin-bottom: 36px; }
+
+.img-noticia { height: 450px; }

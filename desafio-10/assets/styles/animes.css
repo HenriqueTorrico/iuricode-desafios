@@ -101,3 +101,11 @@ figure.single-btn { padding: 6px; }
   color: var(--purple-light);
   border: 2px solid var(--purple-light);
 }
+
+@media screen and (max-width: 948px) {
+  .single-secao-animes { width: calc(100% / 2 - 30px); }
+}
+
+@media screen and (max-width: 692px) {
+  .single-secao-animes { width: 100%; margin: 0 0 40px 0; }
+}

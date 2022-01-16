@@ -74,10 +74,11 @@
 }
 
 @media screen and (max-width: 678px) {
-  .img-error { margin-bottom: 90px; }
+  .img-error { margin-bottom: 150px; }
   .menu-error { display: none; }
 }
 
 @media screen and (max-width: 400px) {
+  .img-error { margin-bottom: 90px; }
   .img-error { width: auto; height: auito; }
 }

@@ -177,9 +177,14 @@ figure.top1 figcaption {
   position: relative;
 }
 
-.single-recentes:nth-child(3),
-.single-recentes:nth-child(6) { margin: 0 0 35px 0; }
-
 .noticias-recentes .container .title {
   margin-bottom: 45px;
+}
+
+@media screen and (max-width: 966px) {
+  .single-recentes { width: calc(100% / 2 - 35px); }
+}
+
+@media screen and (max-width: 640px) {
+  .single-recentes { width: 100%; margin: 0 0 35px 0; }
 }
