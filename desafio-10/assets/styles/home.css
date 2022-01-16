@@ -173,6 +173,7 @@ figure.top1 figcaption {
 }
 
 .single-recentes {
+  display: block;
   width: calc(100% / 3 - 35px);
   margin: 0 35px 35px 0;
   position: relative;

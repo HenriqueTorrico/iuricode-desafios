@@ -1,0 +1,25 @@
+.intro-noticia .container h1 {
+  font: 400 2.25rem "Lexend Deca", sans-serif;
+  line-height: 55px;
+  color: var(--white);
+  margin-top: 89px;
+  margin-bottom: 12px;
+}
+
+.intro-noticia .container p {
+  font: 400 1.3rem "Inter", sans-serif;
+  line-height: 40px;
+  color: var(--white-200);
+}
+
+.intro-noticia .container span {
+  display: block;
+  font: 400 1.1rem "Inter", sans-serif;
+  line-height: 55px;
+  color: var(--white-200);
+  margin-bottom: 20px;
+}
+
+.intro-noticia .container p:nth-of-type(2),
+.intro-noticia .container p:nth-of-type(3),
+.img-noticia { margin-bottom: 36px; }
