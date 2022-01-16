@@ -60,3 +60,24 @@
   color: var(--white-200);
   margin-top: 44px;
 }
+
+@media screen and (max-width: 982px) {
+  .error { 
+    margin-top: 100px; 
+    margin-bottom: 100px;
+  }
+  .error .container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .img-error { margin-bottom: 150px; }
+}
+
+@media screen and (max-width: 678px) {
+  .img-error { margin-bottom: 90px; }
+  .menu-error { display: none; }
+}
+
+@media screen and (max-width: 400px) {
+  .img-error { width: auto; height: auito; }
+}
