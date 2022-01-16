@@ -12,6 +12,15 @@
   --dark: #13131F;
 }
 
+::-webkit-scrollbar { width: 14px; }
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--purple-light);
+  border: 3px solid var(--gray-200);
+}
+
+::-webkit-scrollbar-track {  background: var(--gray-200); }
+
 ul, ol { list-style: none; }
 
 a { text-decoration: none; }
@@ -39,7 +48,8 @@ header .container {
   margin-top: 20px;
 }
 
-.logo h1 {
+.logo h1,
+footer .container .logo h2 {
   font: 400 1.6rem "Lexend Deca", sans-serif;
   color: var(--purple-light);
 }
@@ -69,6 +79,27 @@ header .container {
 }
 
 .menu li a:hover { color: var(--purple-light); }
+
+footer { 
+  margin-top: 50px;   
+  padding-bottom: 30px; 
+}
+
+footer .container { 
+  display: flex;
+  align-items: center;  
+  flex-direction: column;
+  text-align: center;
+}
+
+footer .container .logo { margin-bottom: 16px; }
+
+.copy p {
+  max-width: 500px;
+  font: 400 1rem "Inter", sans-serif;
+  line-height: 24px;
+  color: var(--white-200);
+}
 
 @media screen and (max-width: 976px) {
   .menu { display: none; }
