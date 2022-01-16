@@ -127,6 +127,16 @@
 ### 🧐 Confira o resultado <a href="https://la-pizza-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
+<br>
+
+## ✨ Desafio 13 - IuriCode (Arcane) 💻
+<br>
+<img src="./desafio-13/assets/design/arcane.jpg">
+
+### Status: Em andamento 🚨
+<!-- ### 🧐 Confira o resultado <a href="https://arcane-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+
+<br>
 
 ## ✨ Links uteis
 
