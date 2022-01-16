@@ -4,35 +4,35 @@ const scroll = [
     titulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor.",
     descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor...",
     data: "00/00/0000",
-    link: ""
+    link: "./noticias.html"
   },
   {
     imagem: "./assets/img/img-anime02.jpg",
     titulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor.",
     descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor...",
     data: "00/00/0000",
-    link: ""
+    link: "./noticias.html"
   },
   {
     imagem: "./assets/img/img-anime03.jpg",
     titulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor.",
     descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor...",
     data: "00/00/0000",
-    link: ""
+    link: "./noticias.html"
   },
   {
     imagem: "./assets/img/img-anime04.jpg",
     titulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor.",
     descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor...",
     data: "00/00/0000",
-    link: ""
+    link: "./noticias.html"
   },
   {
     imagem: "./assets/img/img-anime05.jpg",
     titulo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor.",
     descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor...",
     data: "00/00/0000",
-    link: ""
+    link: "./noticias.html"
   },
 ]
 

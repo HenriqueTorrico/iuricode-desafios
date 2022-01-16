@@ -1,0 +1,103 @@
+.intro-animes { margin-top: 89px; }
+
+.img-intro-animes {
+  height: 300px;
+  position: relative;
+}
+
+.img-intro-animes .ds-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  padding-left: 40px;
+  background: linear-gradient(0.01deg, #13131F 0.01%, rgba(19, 19, 31, 0) 99.99%);
+}
+
+.img-intro-animes h1 {
+  font: 400 3rem "Lexend Deca", sans-serif;
+  line-height: 55px;
+  color: var(--white);
+  margin-bottom: 15px;
+}
+
+.img-intro-animes p {
+  max-width: 492px;
+  font: 500 1.25rem "Inter", sans-serif;
+  line-height: 32px;
+  color: var(--white-200);
+}
+
+.pesquisa-intro {
+  margin-top: 42px;
+  position: relative;
+}
+
+input[type="search"] {
+  font: 400 1.25rem "Lexend Deca", sans-serif;
+  line-height: 25px;
+  color: var(--white);
+  width: 100%;
+  position: relative;
+  border: none;
+  padding: 17px 5px 18px 25px;
+  background: var(--gray-200);
+}
+
+.pesquisa-intro img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  cursor: pointer;
+  right: 25px;
+  top: 15px;
+}
+
+.secao-animes { margin-top: 60px; }
+
+.container-secao-animes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single-secao-animes {
+  width: calc(100% / 3 - 30px);
+  height: 250px;
+  margin: 0 30px 40px 0;
+  position: relative;
+}
+
+.btn-paginacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 30px;
+}
+
+.btns { display: flex; }
+
+.single-btn {
+  width: 32px;
+  height: 32px;
+  font: 600 1.1rem "Inter", sans-serif;
+  color: var(--white-200);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--gray-200);
+  padding: 6px 10px;
+  margin-right: 8px;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: .4s ease-in-out;
+}
+
+figure.single-btn { padding: 6px; }
+
+.single-btn:hover {
+  color: var(--purple-light);
+  border: 2px solid var(--purple-light);
+}
