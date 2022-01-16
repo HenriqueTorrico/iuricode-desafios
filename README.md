@@ -117,6 +117,16 @@
 ### 🧐 Confira o resultado <a href="https://naped-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
+<br>
+
+## ✨ Desafio 12 - IuriCode (LaPizza) 💻
+<br>
+<img src="./desafio-12/assets/design/lapizza.jpg">
+
+### Status: Em andamento 🚨
+<!-- ### 🧐 Confira o resultado <a href="https://naped-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+
+<br>
 
 ## ✨ Links uteis
 
