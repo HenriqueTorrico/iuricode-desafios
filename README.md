@@ -123,8 +123,8 @@
 <br>
 <img src="./desafio-12/assets/design/lapizza.jpg">
 
-### Status: Em andamento 🚨
-<!-- ### 🧐 Confira o resultado <a href="https://naped-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+### Status: Concluído ✅
+### 🧐 Confira o resultado <a href="https://la-pizza-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
 

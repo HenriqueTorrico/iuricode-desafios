@@ -10,13 +10,231 @@
   --yellow: #FFA200;
   --red: #CF3031;
   --pink: #FFD4C9;
+  --pink-200: #FEF6F4;
   --white: #FEF6F4;
   --gray: #616161;
   --gray-200: #2E2E2E;
+  --white-200: #FCFCFC;
 }
 
+a { text-decoration: none; }
+
 .container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
 }
 
+.intro {
+  min-height: 650px;
+  background-image: url("../img/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+}
+
+.intro .container h1 {
+  font-size: 6rem;
+  font-weight: 600;
+  line-height: 121px;
+  text-align: center;
+  color: var(--white);
+}
+
+.intro .container h1 span, .ds-sobre h2 span { color: var(--yellow); }
+
+.intro .container h1 span:nth-of-type(2), .ds-sobre h2 span:nth-of-type(2) { color: var(--red); }
+
+.intro .container h1 span:nth-of-type(3), .ds-sobre h2 span:nth-of-type(3) { color: var(--green); }
+
+.vendas { 
+  margin-top: 140px;
+  position: relative; 
+}
+
+.vendas .container, .vendas .container .title { position: relative; }
+
+.vendas .container .title h2,
+.ds-sobre h2{
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: center;
+  color: var(--gray-200);
+  margin-bottom: 88px;
+}
+
+.container-vendidas { 
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-vendidas {
+  width: 256px;
+  height: 275px;
+  margin: 0 15px 105px 15px;
+  background: var(--pink-200);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.single-vendidas .pizza {
+  position: relative;
+  top: -60px;
+}
+
+.ds-vendidas { 
+  text-align: center; 
+  position: relative;
+  bottom: 45px;
+}
+
+.ds-vendidas h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 23px;
+  color: var(--gray-200);
+  margin-bottom: 8px;
+}
+
+.ds-vendidas p {
+  max-width: 180px;
+  font-size: .9rem;
+  font-weight: 300;
+  line-height: 20px;
+  font-variant: var(--gray);
+  margin-bottom: 22px;
+}
+
+.ds-vendidas h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 40px;
+  color: var(--gray-200);
+  margin-bottom: 20px;
+}
+
+.ds-vendidas a {
+  font-size: .8rem;
+  font-weight: 600;
+  line-height: 15px;
+  padding: 8px 32px;
+  color: var(--gray-200);
+  background: var(--yellow);
+  border-radius: 25px;
+  position: relative;
+  bottom: -10px;
+}
+
+.love {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 9px;
+  background: var(--pink);
+  border-radius: 14px;
+  border: 2px solid var(--red);
+  position: absolute;
+  right: 18px;
+  top: -18px;
+  cursor: pointer;
+}
+
+.sobre { 
+  margin-top: 100px;
+  background: var(--white-200);
+  padding: 50px 0;
+  position: relative;
+}
+
+.sobre .container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+}
+
+.img-sobre { 
+  margin-right: 96px; 
+  position: relative;
+}
+
+.ds-sobre h2 { 
+  text-align: left; 
+  margin-bottom: 24px;
+}
+
+.ds-sobre p {
+  max-width: 458px;
+  font-weight: 300;
+  line-height: 26px;
+  color: var(--gray-200);
+  margin-bottom: 34px;
+}
+
+.ds-sobre a {
+  font-weight: 600;
+  line-height: 15px;
+  color: var(--gray-200);
+  padding: 12px 40px;
+  background: var(--yellow);
+  border-radius: 25px;
+}
+
+footer .container { padding: 16px 0; }
+
+footer .container p {
+  font-size: .9rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--gray-200);
+}
+
+/* imagens */
+
+.imgs-sobre { position: absolute; } 
+.planta { top: -190px; left: 0; }
+.peixe { top: -75px; left: 20%; }
+.cogumelo { top: -95px; right: 60px; }
+.folha { top: 200px; right: 0; }
+.pimenta { bottom: -30px; left: -50px; }
+.tomate { top: -110px; right: 0; }
+.pizza05 { left: -80px; top: 22px; }
+.pizza06 { bottom: 0; right: 0; }
+
+@media screen and (max-width: 970px) {
+  .sobre .container { display: flex; flex-direction: column; padding: 50px 20px; }
+  .img-sobre { margin: 0 0 30px 0; }
+}
+
+@media screen and (max-width: 836px) { 
+  .pizza06 { bottom: -65px; right: 0; }
+}
+
+@media screen and (max-width: 768px) { 
+  .peixe { top: -95px; left: 20%; }
+}
+
+@media screen and (max-width: 474px) {
+  .img-sobre img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 374px) { 
+  .pizza06 { display: none; }
+}
