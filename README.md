@@ -137,6 +137,16 @@
 <!-- ### 🧐 Confira o resultado <a href="https://arcane-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
 
 <br>
+<br>
+
+## ✨ Desafio 14 - IuriCode (HelpDog) 💻
+<br>
+<img src="./desafio-14/assets/design/helpdog.jpg">
+
+### Status: Em andamento 🚨
+<!-- ### 🧐 Confira o resultado <a href="https://arcane-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+
+<br>
 
 ## ✨ Links uteis
 
