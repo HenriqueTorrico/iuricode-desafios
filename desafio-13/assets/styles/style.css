@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+:root {
+  --white: #F9F9F9;
+  --white-200: #E3D2BC;
+  --gray: #585858;
+  --black: #111111;
+}
+
+html, body, main { height: 100%; }
+
+a { text-decoration: none; }
+
+main { background: rgba(0, 0, 0, 0.4); }
+
+header { padding: 30px 20px; }
+
+body {
+  background-image: url("../img/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container, .left, .trailer { display: flex; }
+
+nav.container { justify-content: space-between; }
+
+.riot { 
+  padding-right: 60px;
+  margin-right: 60px;
+  border-right: 3px solid var(--white); 
+}
+
+.intro { margin-top: 160px; }
+
+.intro .container, .trailer {
+  justify-content: center;
+  align-items: center;
+}
+
+.trailer { flex-direction: column; }
+
+.img-trailer img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.btn-trailer { margin-top: 32px; }
+
+.btn-trailer a {
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 20px 60px;
+  color: var(--black);
+  background: var(--white-200);
+  border: 2px solid var(--black);
+}
+
+.novo-episodio {
+  width: 100%;
+  padding-bottom: 32px;
+  position: absolute;
+  bottom: 0;
+}
+
+.novo-episodio .container { padding: 0 20px 0 46px; }
+
+.novo {
+  padding: 20px 93px 20px 0;
+  background: var(--white-200);
+  border: 2px solid var(--black);
+}
+
+.novo, .img-novo-episodio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img-novo-episodio, .ds-novo-episodio { position: relative; }
+
+.img-novo-episodio img:nth-of-type(2) { position: absolute; }
+
+.img-novo-episodio { left: -75px; }
+
+.ds-novo-episodio { left: -35px; }
+
+.ds-novo-episodio h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 40px;
+  color: var(--black);
+  margin-bottom: 21px;
+}
+
+.ds-novo-episodio p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 25px;
+  color: var(--gray);
+}
