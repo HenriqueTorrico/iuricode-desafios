@@ -15,9 +15,11 @@
   --intro: #EFF8FF;
 }
 
+html { scroll-behavior: smooth; }
+
 a { text-decoration: none; }
 
-input { outline: none; }
+input { outline: none; border: none; }
 
 ol, ul { list-style: none; }
 
@@ -73,7 +75,8 @@ nav.container, .intro .container { justify-content: space-between; align-items: 
 #funcionalidades .title { margin-bottom: 63px; }
 
 #funcionalidades .title h2,
-#planos .title h2 {
+#planos .title h2,
+#contato .title h2 {
   font: 600 2.5rem "Sora", sans-serif;
   line-height: 50px;
   color: var(--gray-200);
@@ -130,11 +133,14 @@ nav.container, .intro .container { justify-content: space-between; align-items: 
 
 .ds-app a:nth-of-type(1) img { margin-right: 10px; }
 
+#planos { padding-bottom: 140px; }
+
 #planos .title { margin-bottom: 80px; }
 
-#planos .title h2 { margin-bottom: 16px; }
+#planos .title h2, #contato .title h2 { margin-bottom: 16px; }
 
-#planos .title p {
+#planos .title p,
+#contato .title p {
   max-width: 570px;
   font: 400 1.1rem "Roboto", sans-serif;
   line-height: 25px;
@@ -222,6 +228,49 @@ nav.container, .intro .container { justify-content: space-between; align-items: 
   color: var(--white);
 }
 
+#contato { padding: 90px 0; }
+
 #contato {
+  background-image: linear-gradient(45deg, #293145B3, #293145B3), url("../img/banner.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#contato .container .title { margin-bottom: 93px; }
+
+#contato .container .title h2 { color: var(--white); }
+
+#contato .container .title p { max-width: 528px; color: var(--gray-light); }
+
+#contato .container form { display: flex; justify-content: center; }
+
+#contato .container input {
+  font: 400 1.1rem "Inter", sans-serif;
+  line-height: 22px;
+  color: var(--white);
+}
+
+#contato .container input::placeholder { color: var(--white); }
+
+#contato .container input[type="email"] { border-bottom: 1px solid var(--white); background: transparent; }
+
+#contato .container input[type="submit"] {
+  padding: 8px 32px;
+  margin-left: 40px;
+  border-radius: 50px;
+  background: var(--blue);
+  cursor: pointer;
+}
+
+footer .container { text-align: center; padding: 37px 0; }
+
+footer .container p {
+  font: 400 1.25rem "Sora", sans-serif;
+  line-height: 25px;
+  color: var(--gray-200);
+}
+
+@media screen and (max-width: ) {
   
 }
