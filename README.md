@@ -154,7 +154,7 @@
 <img src="./desafio-19/assets/design/rachi.jpg">
 
 ### Status: Em andamento 🚨
-<!-- ### 🧐 Confira o resultado <a href="https://arcane-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+### 🧐 Confira o resultado <a href="https://rachi-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
 
