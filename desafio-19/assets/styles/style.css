@@ -46,6 +46,10 @@ nav.container, .intro .container { justify-content: space-between; align-items: 
   padding: 5px 10px;
 }
 
+.icon-menu { display: none; width: 31px; }
+
+.icon-menu img { width: 100%; height: auto; }
+
 .intro { padding: 60px 0; background: var(--intro); }
 
 .ds-intro h1 {
@@ -90,7 +94,7 @@ nav.container, .intro .container { justify-content: space-between; align-items: 
   align-items: center;
 }
 
-.single-func { text-align: center; margin: 20px 60px; }
+.single-func { width: 200px; text-align: center; margin: 20px 60px; }
 
 .single-func img { margin-bottom: 23px; }
 
@@ -209,7 +213,7 @@ nav.container, .intro .container { justify-content: space-between; align-items: 
   font: 400 1.1rem "Roboto", sans-serif;
   line-height: 25px;
   color: var(--gray);
-  margin: 45px 0;
+  margin: 45px auto;
 }
 
 .single-planos a:last-of-type {
@@ -263,7 +267,7 @@ nav.container, .intro .container { justify-content: space-between; align-items: 
   cursor: pointer;
 }
 
-footer .container { text-align: center; padding: 37px 0; }
+footer .container { text-align: center; padding: 37px 20px; }
 
 footer .container p {
   font: 400 1.25rem "Sora", sans-serif;
@@ -271,6 +275,38 @@ footer .container p {
   color: var(--gray-200);
 }
 
-@media screen and (max-width: ) {
-  
+@media screen and (max-width: 1022px) {
+  .single-planos { width: calc(100% / 2 - 30px); }
+}
+
+@media screen and (max-width: 958px) {
+  .intro .container { flex-wrap: wrap; flex-direction: column-reverse; }
+
+  .ds-intro { text-align: center; }
+}
+
+@media screen and (max-width: 858px) {
+  #app .container {  flex-wrap: wrap; flex-direction: column-reverse; }
+}
+
+@media screen and (max-width: 696px) {
+  .menu { display: none; }
+
+  .icon-menu { display: block; }
+
+  .container-planos { justify-content: center; }
+
+  .single-planos { width: 370px; }
+}
+
+@media screen and (max-width: 523px) {
+  .img-intro img, .img-app img { width: 100%; height: auto; }
+}
+
+@media screen and (max-width: 425px) {
+  #contato .container form { flex-direction: column; }
+
+  #contato .container input[type="email"] { padding: 0 0 10px 0; margin-bottom: 30px; }
+
+  #contato .container input[type="submit"] { padding: 10px; margin-left: 0; }
 }

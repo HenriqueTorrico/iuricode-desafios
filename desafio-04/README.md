@@ -16,7 +16,7 @@
 
 <br>
 
-## ✨ Links uteis
+## ✨ Links úteis
 
 ### ⚫ Design do projeto: <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codelândia?node-id=4261%3A2" target="_blank">Clique aqui</a>
 ### ⚫ Criador do desafio: <a href="https://www.linkedin.com/in/iuricode/" target="_blank">Clique aqui</a>
