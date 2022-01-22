@@ -147,11 +147,21 @@
 <!-- ### 🧐 Confira o resultado <a href="https://arcane-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
 
 <br>
+<br>
 
-## ✨ Links uteis
+## ✨ Desafio 19 - IuriCode (Rachi) 💻
+<br>
+<img src="./desafio-19/assets/design/rachi.jpg">
+
+### Status: Em andamento 🚨
+<!-- ### 🧐 Confira o resultado <a href="https://arcane-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+
+<br>
+
+## ✨ Links úteis
 
 ### ⚫ Design dos projetos: <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codelândia?node-id=624%3A2" target="_blank">Clique aqui</a>
-### ⚫ Criador do desafio <a href="https://www.linkedin.com/in/iuricode/" target="_blank">Clique aqui</a>
+### ⚫ Criador do desafio: <a href="https://www.linkedin.com/in/iuricode/" target="_blank">Clique aqui</a>
   
 <br>
 
