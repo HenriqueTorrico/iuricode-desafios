@@ -149,6 +149,16 @@
 <br>
 <br>
 
+## ✨ Desafio 18 - IuriCode (Spider-man) 💻
+<br>
+<img src="./desafio-18/assets/design/spider-man.jpg">
+
+### Status: Em andamento 🚨
+<!-- ### 🧐 Confira o resultado <a href="https://spider-man-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+
+<br>
+<br>
+
 ## ✨ Desafio 19 - IuriCode (Rachi) 💻
 <br>
 <img src="./desafio-19/assets/design/rachi.jpg">
