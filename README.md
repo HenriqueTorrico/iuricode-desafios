@@ -149,6 +149,16 @@
 <br>
 <br>
 
+## ✨ Desafio 16 - IuriCode (Feliz Natal) 💻
+<br>
+<img src="./desafio-16/assets/design/feliz-natal.jpg">
+
+### Status: Concluído ✅
+### 🧐 Confira o resultado <a href="https://feliz-natal.netlify.app" target="_blank">aqui</a> 🧐
+
+<br>
+<br>
+
 ## ✨ Desafio 18 - IuriCode (Spider-man) 💻
 <br>
 <img src="./desafio-18/assets/design/spider-man.jpg">
