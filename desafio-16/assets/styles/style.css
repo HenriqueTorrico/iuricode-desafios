@@ -52,6 +52,10 @@ header .container { padding: 20px; justify-content: space-between; }
   color: var(--black-light);
 }
 
+.menu-hamburguer { display: none; position: relative; bottom: -4px; }
+
+.menu-hamburguer img { width: 32px; }
+
 .intro .container {
   display: flex;
   align-items: center;
@@ -117,7 +121,7 @@ header .container { padding: 20px; justify-content: space-between; }
   flex-wrap: wrap; 
 }
 
-.single-acessorios { width: 200px; text-align: center; }
+.single-acessorios { width: 230px; text-align: center; margin-bottom: 30px; }
 
 .single-acessorios h3 {
   font-size: 1.25rem;
@@ -192,3 +196,37 @@ header .container { padding: 20px; justify-content: space-between; }
 }
 
 .single-redes-sociais:last-child { margin-right: 0; }
+
+@media screen and (max-width: 1024px) {
+  .img-doacao { margin-right: 74px; }
+}
+
+@media screen and (max-width: 1000px) {
+  .intro .container { flex-direction: column-reverse; }
+}
+
+@media screen and (max-width: 952px) {
+  #doacao .container { flex-direction: column; }
+}
+
+@media screen and (max-width: 716px) {
+  .menu { display: none; }
+
+  .menu-hamburguer { display: block; }
+}
+
+@media screen and (max-width: 652px) {
+  .img-intro img, .img-doacao img { width: 100%; height: auto; }
+
+  #contato .container { display: block; }
+
+  .redes-sociais { margin-top: 40px; justify-content: flex-start; }
+}
+
+@media screen and (max-width: 490px) {
+  .container-acessorios { justify-content: center; }
+}
+
+@media screen and (max-width: 424px) {
+  .single-redes-sociais { margin-right: 20px; }
+}
