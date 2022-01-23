@@ -163,8 +163,8 @@
 <br>
 <img src="./desafio-18/assets/design/spider-man.jpg">
 
-### Status: Em andamento 🚨
-<!-- ### 🧐 Confira o resultado <a href="https://spider-man-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+### Status: Concluído ✅
+### 🧐 Confira o resultado <a href="https://spider-man-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
 <br>
