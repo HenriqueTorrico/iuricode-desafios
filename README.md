@@ -159,6 +159,16 @@
 <br>
 <br>
 
+## ✨ Desafio 17 - IuriCode (Kenai) 💻
+<br>
+<img src="./desafio-17/assets/design/kenai.jpg">
+
+### Status: Em andamento 🚨
+<!-- ### 🧐 Confira o resultado <a href="https://kenai-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+
+<br>
+<br>
+
 ## ✨ Desafio 18 - IuriCode (Spider-man) 💻
 <br>
 <img src="./desafio-18/assets/design/spider-man.jpg">
