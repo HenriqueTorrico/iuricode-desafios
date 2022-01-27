@@ -2,15 +2,30 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Mukta", sans-serif;
-  font-family: "Open Sans", sans-serif;
 }
 
 :root {
-
+  --logo: linear-gradient(270deg, #FFA634 0%, #FF267A 100%);
+  --tipo01: linear-gradient(225deg, #781FD1 0%, #570EAB 100%);
+  --tipo02: linear-gradient(180deg, #64FA9B 0%, #5FE36A 100%);
+  --tipo03: linear-gradient(180deg, #4DF0F3 0%, #4D7BFD 100%);
+  --yellow: #FFA634;
+  --white: #F9F9F9;
+  --gray: #A8A8A8;
+  --gray-dark: #181818;
+  --dark: #121214;
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
+::-webkit-scrollbar { width: 10px; }
+
+::-webkit-scrollbar-thumb { background: var(--logo); border-radius: 8px; }
+
+::-webkit-scrollbar-track {  background: var(--gray-dark); }
+
+a { text-decoration: none; }
+
+img { width: 100%; height: auto; object-fit: cover; }
+
+html { background: var(--dark); }
+
+.container { max-width: 1200px; margin: auto; }

@@ -1,0 +1,81 @@
+#login nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 48px;
+}
+
+.logo h3 {
+  font: 700 2.5rem "Mukta", sans-serif;
+  line-height: 66px;
+  color: var(--white);
+  background-image: var(--logo);
+  background-clip: text;  
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.horario p { line-height: 49px; }
+
+.horario p, .bem-vindo p { font: 300 2.25rem "Open Sans", sans-serif; color: var(--white); }
+
+.intro { margin-top: 58px; }
+
+.bem-vindo { text-align: center; }
+
+.bem-vindo h1 {
+  font: 300 4rem "Open Sans", sans-serif;
+  line-height: 87px;
+  color: var(--white);
+  margin-bottom: 24px;
+}
+
+.bem-vindo p { line-height: 54px; }
+
+#container-usuarios { 
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap;
+  margin-top: 209px;
+}
+
+.single-usuarios {
+  width: 300px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-usuarios {
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+
+.img-usuarios.tipo01 { background: var(--tipo01); }
+.img-usuarios.tipo02 { background: var(--tipo02); }
+.img-usuarios.tipo03 { background: var(--tipo03); }
+
+.ds-usuarios h3 {
+  font: 400 2rem "Open Sans", sans-serif;
+  line-height: 44px;
+  color: var(--gray);
+}
+
+.add-usuarios { 
+  display: flex; 
+  justify-content: center;
+  margin-top: 88px; 
+  padding-bottom: 70px;
+}
+
+.add-usuarios a {
+  font: 600 1.25rem "Open Sans", sans-serif;
+  line-height: 27px;
+  padding: 16px 40px;
+  color: var(--white);
+  background: var(--gray-dark);
+}
