@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 35px 48px;
+  padding: 35px 40px;
 }
 
 .logo h3 {
@@ -22,7 +22,7 @@
 
 .intro { margin-top: 58px; }
 
-.bem-vindo { text-align: center; }
+.bem-vindo { padding: 0 20px; text-align: center; }
 
 .bem-vindo h1 {
   font: 300 4rem "Open Sans", sans-serif;
@@ -37,12 +37,12 @@
   display: flex; 
   justify-content: center; 
   flex-wrap: wrap;
-  margin-top: 209px;
+  margin-top: 100px;
 }
 
 .single-usuarios {
   width: 300px;
-  margin: 15px;
+  margin: 30px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -69,7 +69,7 @@
   display: flex; 
   justify-content: center;
   margin-top: 88px; 
-  padding-bottom: 70px;
+  padding-bottom: 60px;
 }
 
 .add-usuarios a {

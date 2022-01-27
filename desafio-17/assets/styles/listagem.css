@@ -1,0 +1,39 @@
+#listagem , .menu ul, .container-img, .temp { display: flex; align-items: center;  }
+
+#listagem { 
+  width: 100%;
+  justify-content: space-between; 
+  padding: 30px 38px;
+  position: absolute; 
+  top: 0;
+}
+
+.menu ul li { margin-right: 80px; }
+
+.menu ul li:last-of-type { margin-right: 0; }
+
+.menu ul li a {
+  font: 600 1.5rem "Open Sans", sans-serif;
+  line-height: 33px;
+  color: var(--white);
+}
+
+.menu ul li a img { position: relative; bottom: -5px; }
+
+.banner { 
+  min-height: 1080px; 
+  background: url("../img/banner.jpg") no-repeat;
+  padding: 160px 38px 0 38px;
+}
+
+.ds-banner {
+  
+}
+
+.stars-img { display: flex; }
+
+.stars-img img { width: 70px; height: 70px; }
+
+@media screen and (max-width: 860px) {
+  .menu { display: none; }
+}

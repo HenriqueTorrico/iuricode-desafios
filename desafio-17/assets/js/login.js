@@ -18,12 +18,14 @@ listarUsuarios = () => {
 
   usuarios.map((valUsuarios) => {
     boxUsuarios.innerHTML += `
-      <div class="single-usuarios">
-        <div class="img-usuarios `+ valUsuarios.background +`"></div>
-        <div class="ds-usuarios">
-          <h3>`+ valUsuarios.nome +`</h3>
+      <a href="./listagem.html">
+        <div class="single-usuarios">
+          <div class="img-usuarios `+ valUsuarios.background +`"></div>
+          <div class="ds-usuarios">
+            <h3>`+ valUsuarios.nome +`</h3>
+          </div>
         </div>
-      </div>
+      </a>
     `;
   })
 }
