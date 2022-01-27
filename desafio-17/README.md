@@ -12,9 +12,9 @@
 
 <br>
 
-<img src="./assets/design/kenai.jpg">
+<img src="./assets/design/kenai01.jpg">
 <br>
-<img src="./assets/design/kanei01.jpg">
+<img src="./assets/design/kenai.jpg">
 
 <br>
 
