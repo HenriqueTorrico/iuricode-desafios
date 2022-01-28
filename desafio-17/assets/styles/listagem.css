@@ -20,19 +20,72 @@
 
 .menu ul li a img { position: relative; bottom: -5px; }
 
+.container-img { margin-bottom: 25px; }
+
 .banner { 
   min-height: 1080px; 
   background: url("../img/banner.jpg") no-repeat;
+  background-size: cover;
   padding: 160px 38px 0 38px;
 }
 
-.ds-banner {
-  
+.genero {
+  font: 600 .9rem "Open Sans", sans-serif;
+  line-height: 16px;
+  color: var(--yellow);
+  padding: 4px 8px;
+  background: var(--gray-dark);
+  display: inline-block;
+  border-radius: 0px 8px;
+  margin-bottom: 28px;
 }
 
-.stars-img { display: flex; }
+.stars-img { display: flex; margin-right: 10px; }
 
-.stars-img img { width: 70px; height: 70px; }
+.stars-img img { height: 42px; margin-left: -18px;}
+
+.stars-img img:first-of-type { margin-left: -10px; }
+
+.temp img { width: 20px; margin-right: 10px; }
+
+.temp img, figcaption { position: relative; top: -2px; }
+
+.temp figcaption {
+  font: 600 .9rem "Open Sans", sans-serif;
+  line-height: 18px;
+  color: var(--white);
+}
+
+.ds-banner h1 {
+  font: 600 3.3rem "Open Sans", sans-serif;
+  line-height: 64px;
+  color: var(--white);
+  margin-bottom: 26px;
+}
+
+.ds-banner p {
+  max-width: 536px;
+  font: 400 1.25rem "Open Sans", sans-serif;
+  line-height: 28px;
+  color: var(--white);
+  padding-left: 3px;
+  margin-bottom: 61px;
+}
+
+.ds-banner a {
+  font: 600 1.5rem "Open Sans", sans-serif;
+  line-height: 32px;
+  color: var(--gray-dark);
+  padding: 12px 64px;
+  background: var(--yellow);
+  border-radius: 4px;
+}
+
+.filmes {
+  padding: 0 38px;
+  position: relative;
+  top: -400px;
+}
 
 @media screen and (max-width: 860px) {
   .menu { display: none; }
