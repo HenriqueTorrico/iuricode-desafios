@@ -68,8 +68,7 @@
 .add-usuarios { 
   display: flex; 
   justify-content: center;
-  margin-top: 88px; 
-  padding-bottom: 60px;
+  margin-top: 88px;
 }
 
 .add-usuarios a {
