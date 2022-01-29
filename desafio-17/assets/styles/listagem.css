@@ -29,7 +29,8 @@
   padding: 160px 38px 0 38px;
 }
 
-.genero {
+.genero,
+.ds-filmes span {
   font: 600 .9rem "Open Sans", sans-serif;
   line-height: 16px;
   color: var(--yellow);
@@ -85,6 +86,44 @@
   padding: 0 38px;
   position: relative;
   top: -400px;
+}
+
+.box-filmes .title { margin-bottom: 42px; }
+
+.box-filmes .title h2 {
+  font: 600 2rem "Open Sans", sans-serif;
+  line-height: 44px;
+  color: var(--white);
+  padding-bottom: 6px;
+}
+
+.single-filmes {
+  width: 300px;
+  height: 440px;
+  margin-right: 81px;
+  position: relative;
+}
+
+.ds-filmes {
+  width: 100%;
+  height: 100%;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(180deg, rgba(24, 24, 24, 0) 0%, rgba(24, 24, 24, 0.8) 80.79%);
+  position: absolute;
+  bottom: 0;
+}
+
+.ds-filmes span { max-width: 79px; font: 400 .9rem "Open Sans", sans-serif; margin-bottom: 16px; }
+
+.ds-filmes img { max-width: 80px; margin-bottom: 16px; }
+
+.ds-filmes h3 {
+  font: 600 1.5rem "Open Sans", sans-serif;
+  line-height: 33px;
+  color: var(--white);
 }
 
 @media screen and (max-width: 860px) {
