@@ -23,7 +23,7 @@
 .container-img { margin-bottom: 25px; }
 
 .banner { 
-  min-height: 1080px; 
+  min-height: 1080px;
   background: url("../img/banner.jpg") no-repeat;
   background-size: cover;
   padding: 160px 38px 0 38px;
@@ -94,7 +94,14 @@
   font: 600 2rem "Open Sans", sans-serif;
   line-height: 44px;
   color: var(--white);
-  padding-bottom: 6px;
+}
+
+.box-filmes .title h2::after {
+  margin-top: 6px;
+  width: 61px;
+  display: block;
+  content: '';
+  border-bottom: 2px solid var(--yellow);  
 }
 
 #container-filmes { display: flex; overflow-x: scroll; padding-bottom: 35px; }
@@ -134,4 +141,10 @@
 
 @media screen and (max-width: 860px) {
   .menu { display: none; }
+}
+
+@media screen and (max-width: 360px) {
+  .banner { margin-bottom: 120px; }
+
+  .ds-banner a { padding: 12px 34px; }
 }

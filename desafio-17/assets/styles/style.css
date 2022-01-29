@@ -31,11 +31,15 @@ img { width: 100%; height: auto; object-fit: cover; }
 
 html { background: var(--dark); }
 
+main { height: 100vh; }
+
 .container { max-width: 1200px; margin: auto; }
+
+footer { width: 100%; position: absolute; top: 500px; margin-top: 900px; }
 
 footer, .redes-sociais { display: flex; align-items: center; }
 
-footer { justify-content: space-between; padding: 30px 38px; }
+footer { justify-content: space-between; padding: 0 38px 30px 38px; }
 
 footer .logo h3 {
   color: var(--white);
@@ -52,4 +56,8 @@ footer .logo h3 {
 
 @media screen and (max-width: 489px) {
   .single-redes-sociais { margin-right: 30px; }
+}
+
+@media screen and (max-width: 360px) {
+  .single-redes-sociais { margin-right: 15px; }
 }
