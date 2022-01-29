@@ -163,8 +163,8 @@
 <br>
 <img src="./desafio-17/assets/design/kenai.jpg">
 
-### Status: Em andamento 🚨
-<!-- ### 🧐 Confira o resultado <a href="https://kenai-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+### Status: Concluído ✅
+### 🧐 Confira o resultado <a href="https://kenai-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
 <br>

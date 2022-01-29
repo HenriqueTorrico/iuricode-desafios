@@ -17,7 +17,7 @@
   --dark: #121214;
 }
 
-::-webkit-scrollbar { width: 11px; }
+::-webkit-scrollbar { width: 11px; height: 11px; }
 
 ::-webkit-scrollbar-thumb { background: var(--scroll); border-radius: 8px; }
 
@@ -36,6 +36,15 @@ html { background: var(--dark); }
 footer, .redes-sociais { display: flex; align-items: center; }
 
 footer { justify-content: space-between; padding: 30px 38px; }
+
+footer .logo h3 {
+  color: var(--white);
+  background-image: initial;
+  background-clip: initial;  
+
+  -webkit-background-clip: initial;
+  -webkit-text-fill-color: initial;
+}
 
 .single-redes-sociais { margin-right: 60px; position: relative; bottom: -2px; }
 

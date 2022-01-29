@@ -1,33 +1,43 @@
-const usuarios = [
+const filmes = [
   {
-    background: "tipo01",
-    nome: "Matheus Ramos",
+    imagem: "./assets/img/filme01.jpg",
+    nome: "Shang-Chi",
   },
   {
-    background: "tipo02",
-    nome: "Iuri Silva",
+    imagem: "./assets/img/filme02.jpg",
+    nome: "Shang-Chi",
   },
   {
-    background: "tipo03",
-    nome: "Vinicius Eiji",
+    imagem: "./assets/img/filme03.jpg",
+    nome: "Shang-Chi",
+  },
+  {
+    imagem: "./assets/img/filme04.jpg",
+    nome: "Shang-Chi",
+  },
+  {
+    imagem: "./assets/img/filme05.jpg",
+    nome: "Shang-Chi",
   },
 ]
 
-listarUsuarios = () => {
-  let boxUsuarios = document.querySelector("#container-usuarios")
+listarFilmes = () => {
+  let boxFilmes = document.querySelector("#container-filmes")
 
-  usuarios.map((valUsuarios) => {
-    boxUsuarios.innerHTML += `
-      <a href="./listagem.html">
-        <div class="single-usuarios">
-          <div class="img-usuarios `+ valUsuarios.background +`"></div>
-          <div class="ds-usuarios">
-            <h3>`+ valUsuarios.nome +`</h3>
-          </div>
+  filmes.map((valFilmes) => {
+    boxFilmes.innerHTML += `
+      <div class="single-filmes">
+        <figure class="img-filmes">
+          <img src="`+ valFilmes.imagem +`" alt="Imagem dos filmes">
+        </figure>
+        <div class="ds-filmes">
+          <span>Categoria</span>
+          <img src="./assets/img/stars.svg" alt="Ícone de estrelas">
+          <h3>`+ valFilmes.nome +`</h3>
         </div>
-      </a>
+      </div>
     `;
   })
 }
 
-listarUsuarios();
+listarFilmes();
