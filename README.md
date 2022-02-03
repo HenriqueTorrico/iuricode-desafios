@@ -187,6 +187,16 @@
 ### 🧐 Confira o resultado <a href="https://rachi-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
+<br>
+
+## ✨ Desafio 20 - IuriCode (Portfólio Futurista) 💻
+<br>
+<img src="./desafio-20/assets/design/portfolio.jpg">
+
+### Status: Em andamento 🚨
+<!-- ### 🧐 Confira o resultado <a href="https://portfolio-futurista-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+
+<br>
 
 ## ✨ Links úteis
 
