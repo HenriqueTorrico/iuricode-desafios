@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --blue: #00D2DF;
+  --gradient-pink: #6518B4;
+  --gradient-purple: #10D7E2;
+  --dark: #121212;
+  --dark-200: #151515;
+  --gray-light: #C4C4C4;
+  --light: #FFFFFF;
+}
+
+a { text-decoration: none; }
+
+ol, ul { list-style: none; }
+
+input { outline: none; border: none; }
+
