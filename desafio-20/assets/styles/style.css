@@ -55,7 +55,6 @@ header .container { justify-content: space-between; padding: 40px 20px; }
   display: flex;
   justify-content: space-between;
   padding-top: 192px;
-  /* position: relative; */
 }
 
 .ds-intro p {
@@ -156,7 +155,6 @@ header .container { justify-content: space-between; padding: 40px 20px; }
 .ds-sobre .container-links a:first-of-type { border-image: var(--gradient-pink); }
 
 .ds-sobre .container-links a:last-of-type { border-image: var(--gradient-purple); }
-
 
 @media screen and (max-width: 883px) {
   .menu { display: none; }
