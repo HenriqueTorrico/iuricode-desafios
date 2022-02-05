@@ -10,8 +10,6 @@
   --white: #FFFFFF;
 }
 
-html { overflow: hidden; }
-
 a { text-decoration: none; }
 
 .container {
@@ -76,34 +74,13 @@ nav.container { padding: 31px 20px; }
 }
 
 .img-banner {
-  width: 40%;
-  height: 60%;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 55px;
 }
 
-.imgs { 
-  width: 100%;
-  height: 100%;
-  position: relative; 
-}
-
-.imgs img { 
-  position: absolute;  
-}
-
-.imgs img:nth-of-type(1) { 
-  width: 100%;
-  height: auto;
-}
-
-.imgs img:nth-of-type(2) {
-  bottom: -120px;
-  left: 70px;
-}
-
-.imgs img:nth-of-type(3) {
-  bottom: -80px;
-  left: -40px;
+@media screen and (max-width: 1324px) {
+  .img-banner {
+    top: 455px;
+  }
 }
