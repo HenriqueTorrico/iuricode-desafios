@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Sora", sans-serif;
 }
 
 :root {
@@ -10,6 +9,7 @@
   --white-200: #E3D2BC;
   --gray: #585858;
   --black: #111111;
+  --font: "Sora", sans-serif;
 }
 
 html, body, main { height: 100%; }
@@ -21,157 +21,78 @@ main { background: rgba(0, 0, 0, 0.4); }
 header { padding: 30px 20px; }
 
 body {
-  background-color: var(--black);
-  background-image: url("../img/banner.png");
+  min-height: 100vh;
+  background-image: linear-gradient(#00000059 0%, #00000059 100%), url(../img/banner.png);
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-}
+.container { max-width: 1340px; margin: auto; padding: 0 20px; }
 
-.container, .left, .trailer { display: flex; }
+nav.container { display: flex; justify-content: space-between; }
 
-nav.container { justify-content: space-between; align-items: center; }
-
-.riot { 
-  padding-right: 60px;
+.left img:first-of-type {
+  border-right: 2px solid var(--white);
   margin-right: 60px;
-  border-right: 3px solid var(--white); 
+  padding-right: 60px;
 }
 
-.intro { margin-top: 160px; }
-
-.intro .container, .trailer {
-  justify-content: center;
-  align-items: center;
-}
-
-.trailer { flex-direction: column; }
-
-.img-trailer img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-.btn-trailer { margin-top: 32px; }
-
-.btn-trailer a {
-  font-size: 1.3rem;
-  font-weight: 600;
-  line-height: 30px;
-  text-transform: uppercase;
-  padding: 18px 60px;
-  color: var(--black);
-  background: var(--white-200);
-  border: 2px solid var(--black);
-  clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0 100%, 0 20%);
-}
-
-.novo-episodio {
-  width: 100%;
-  padding-bottom: 32px;
-  position: absolute;
-  bottom: 0;
-}
-
-.novo-episodio .container { padding: 0 20px 0 46px; }
-
-.novo {
-  height: 187px;
-  padding: 20px 93px 20px 0;
-  background: var(--white-200);
-  border: 2px solid var(--black);
-}
-
-.novo, .img-novo-episodio {
+.name-banner {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1;
+  margin: 159px 0 32px 0;
 }
 
-.img-novo-episodio, .ds-novo-episodio { position: relative; }
+.banner .container { text-align: center; }
 
-.img-novo-episodio img:nth-of-type(2) { position: absolute; }
-
-.img-novo-episodio { left: -75px; }
-
-.ds-novo-episodio { left: -35px; }
-
-.ds-novo-episodio h2 {
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 40px;
+.banner .container a {
+  font: 600 1.5rem var(--font);
   color: var(--black);
-  margin-bottom: 21px;
-}
-
-.ds-novo-episodio p {
-  font-size: 1.25rem;
-  font-weight: 400;
-  line-height: 25px;
-  color: var(--gray);
-}
-
-.bg-transparent {
-  width: 78%;
-  height: 111px;
+  text-transform: uppercase;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto 237px auto;
+  padding: 23px;
   background: var(--white-200);
-  border-radius: 0px 0px 0px 24px;
-  opacity: .2;
+  border: 2px solid var(--black);
+}
+
+.new-episode {
+  max-width: 724px;
+  padding: 0 20px;
+  display: flex;
+}
+
+.img-new-episode { position: relative; background: transparent; z-index: 1; }
+
+.img-new-episode img:last-of-type {
   position: absolute;
-  bottom: 0;
-  right: 0;
+  top: 33%;
+  left: 39%;
 }
 
-@media screen and (max-width: 626px) {
-  body { background-image: url("../img/banner-responsivo.jpg"); }
+.ds-new-episode {
+  padding: 19px 0;
+  background: var(--white-200);
+  border: 2px solid var(--black);
+  position: relative;
+  left: -40px;
+}
 
-  .riot { 
-    padding-right: 30px;
-    margin-right: 30px;
-  }
+@media screen and (max-width: 600px) {
+  .left img:first-of-type { margin-right: 40px; padding-right: 40px; }
 
-  .novo {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px 20px 150px 20px;
-    margin: auto;
-    width: 400px;
-    height: 300px;
-    border: 5px solid var(--black);
-  }
+  .name-banner img { width: 100%; height: auto; }
 
-  .novo-episodio {
-    margin-top: 200px;
-    position: relative; 
+  .banner .container a {
+    font: 600 1.2rem var(--font);
+    max-width: 300px;
+    padding: 16px 23px;
   }
+}
+
+@media screen and (max-width: ) {
   
-  .img-novo-episodio, .ds-novo-episodio { position: initial; }
-  .img-novo-episodio { margin-bottom: 20px; }
-  .novo-episodio .container { padding: 0 20px; }
-  .bg-transparent { display: none; }
-}
-
-@media screen and (max-width: 424px) {
-  .riot { width: 80px; padding-right: 100px; }
-  .logo { width: 20px; }
-  .netflix img { width: 120px; }
-
-  .btn-trailer a {
-    font-size: 1rem;
-    padding: 16px 50px;
-  }
-}
-
-@media screen and (max-width: 365px) {
-  .riot { padding-right: 90px; margin-right: 20px; }
-  .riot img { width: 70px;  height: 100%; }
-  .logo img { width: 36px; }
-  .netflix img { width: 100px; }
 }
