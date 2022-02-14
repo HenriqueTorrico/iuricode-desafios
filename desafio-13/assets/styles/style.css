@@ -9,26 +9,24 @@
   --white-200: #E3D2BC;
   --gray: #585858;
   --black: #111111;
+  --bg-opacity: #00000059;
   --font: "Sora", sans-serif;
 }
 
-html, body, main { height: 100%; }
-
 a { text-decoration: none; }
 
-main { background: rgba(0, 0, 0, 0.4); }
-
-header { padding: 30px 20px; }
+header { padding: 30px 10px; }
 
 body {
-  min-height: 100vh;
-  background-image: linear-gradient(#00000059 0%, #00000059 100%), url(../img/banner.png);
+  background-image: url(../img/banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.container { max-width: 1340px; margin: auto; padding: 0 20px; }
+main { min-height: 100vh; background: var(--bg-opacity); }
+
+.container { max-width: 1340px; margin: auto; padding: 0 10px; }
 
 nav.container { display: flex; justify-content: space-between; }
 
@@ -49,36 +47,40 @@ nav.container { display: flex; justify-content: space-between; }
 
 .banner .container a {
   font: 600 1.5rem var(--font);
+  line-height: 30px;
   color: var(--black);
   text-transform: uppercase;
   display: block;
   max-width: 400px;
   margin: 0 auto 237px auto;
-  padding: 23px;
+  padding: 19px;
   background: var(--white-200);
   border: 2px solid var(--black);
+  clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0 100%, 0 20%);
 }
 
 .new-episode {
-  max-width: 724px;
+  max-width: 924px;
   padding: 0 20px;
   display: flex;
+  align-items: center;
 }
 
 .img-new-episode { position: relative; background: transparent; z-index: 1; }
 
-.img-new-episode img:last-of-type {
-  position: absolute;
-  top: 33%;
-  left: 39%;
-}
+.img-new-episode img:last-of-type { position: absolute; top: 33%; left: 39%; }
 
 .ds-new-episode {
-  padding: 19px 0;
+  width: 100%;
+  height: 187px;
   background: var(--white-200);
   border: 2px solid var(--black);
   position: relative;
-  left: -40px;
+  left: -160px;
+}
+
+.ds-new-episode h2 {
+  
 }
 
 @media screen and (max-width: 600px) {
@@ -91,8 +93,12 @@ nav.container { display: flex; justify-content: space-between; }
     max-width: 300px;
     padding: 16px 23px;
   }
+
+
 }
 
-@media screen and (max-width: ) {
-  
+@media screen and (max-width: 525px) {
+  .left img:first-of-type { margin-right: 22px; padding-right: 22px; }
+
+
 }
