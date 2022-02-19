@@ -141,6 +141,8 @@ nav.container { display: flex; justify-content: space-between; align-items: cent
 }
 
 @media screen and (max-width: 525px) {
+  body { background-image: url(../img/banner-responsivo.jpg); }
+
   .left img:first-of-type { margin-right: 22px; padding-right: 22px; }
 }
 
