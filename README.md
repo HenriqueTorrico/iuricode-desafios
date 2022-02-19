@@ -197,6 +197,16 @@
 <!-- ### 🧐 Confira o resultado <a href="https://portfolio-futurista-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
 
 <br>
+<br>
+
+## ✨ Desafio 21 - IuriCode (Xbox) 💻
+<br>
+<img src="./desafio-21/assets/design/xbox.jpg">
+
+### Status: Concluído ✅
+### 🧐 Confira o resultado <a href="https://xbox-torrico.netlify.app" target="_blank">aqui</a> 🧐
+
+<br>
 
 ## ✨ Links úteis
 
