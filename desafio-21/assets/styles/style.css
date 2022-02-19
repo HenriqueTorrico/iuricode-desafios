@@ -58,6 +58,8 @@ nav.container, .menu ul, footer .container, .copy { display: flex; align-items: 
 
 .intro { margin-top: 175px; }
 
+.intro .container { position: relative; }
+
 .ds-intro { text-align: center; }
 
 .ds-intro h1 {
@@ -149,7 +151,7 @@ footer { margin-top: 182px; }
 @media screen and (max-width: 990px) {
   .menu { display: none; }
 
-  .img-intro img { width: 100%; height: 400px; object-fit: cover; }
+  .img-intro img { width: 100%; height: 400px; }
 
   .desempenho .container { flex-direction: column; align-items: center; }
 
@@ -171,6 +173,8 @@ footer { margin-top: 182px; }
 }
 
 @media screen and (max-width: 484px) {
+  .disponibilidade { padding: 17px 22px; }
+
   .ds-desempenho h2 { font: 600 3.4rem var(--font); }
 
   .ds-desempenho p { font: 500 1.3rem var(--font); line-height: 35px !important; }
@@ -178,4 +182,12 @@ footer { margin-top: 182px; }
   .copy { display: block; text-align: center; }
 
   .copy p:first-of-type { margin-bottom: 10px; margin-right: 0; }
+}
+
+@media screen and (max-width: 400px) {
+  .logo { margin-right: 20px; }
+
+  .logo img { width: 100%; height: auto; }
+
+  .disponibilidade { font: 700 .8rem var(--font); padding: 17px 14px; }
 }
