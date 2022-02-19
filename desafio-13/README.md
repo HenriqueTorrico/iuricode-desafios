@@ -4,7 +4,7 @@
 
 ## 📌 Sobre
 
-### 🥇 Décimo terceito projeto dos desafios propostos por  <a href="https://www.linkedin.com/in/iuricode/" target="_blank">IuriCode</a> no qual ele fornece o layout projetado no Figma.
+### 🥇 Décimo terceiro projeto dos desafios propostos por  <a href="https://www.linkedin.com/in/iuricode/" target="_blank">IuriCode</a> no qual ele fornece o layout projetado no Figma.
 
 <br>
 
