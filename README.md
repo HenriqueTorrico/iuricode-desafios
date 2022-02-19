@@ -133,8 +133,8 @@
 <br>
 <img src="./desafio-13/assets/design/arcane.jpg">
 
-### Status: Em andamento 🚨
-<!-- ### 🧐 Confira o resultado <a href="https://arcane-torrico.netlify.app" target="_blank">aqui</a> 🧐 -->
+### Status: Concluído ✅
+### 🧐 Confira o resultado <a href="https://arcane-torrico.netlify.app" target="_blank">aqui</a> 🧐
 
 <br>
 <br>
